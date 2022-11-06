@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cronomêtro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        
+        <div class="crono calc">
+            <button class="btn-ch" onclick="handlechange()">switch to<br> watch</button>
+            <div class="colm">
+                <span class="horas">00</span>
+                <span>hours</span>
+                <button onclick="start()">start</button>
+            </div>
+            <div class="colm">
+                <span class="minutos">00</span>
+                <span>minutes</span>
+                <button id="bt" onclick="stop()">stop</button>
+            </div>
+            <div class="colm">
+                <span class="segundos">00</span>
+                <span>seconds</span>
+                <button onclick="restart()">restart</button>
+            </div>
+        </div>
+        <div class="crono ">
+            <button class="btn-ch" onclick="handlechange()">switch to <br> stopwatch</button>
+            <div class="colm">
+                <span class="hor">00</span>
+                <span>hours</span>
+            </div>
+            <div class="colm">
+                <span class="min">00</span>
+                <span>minutes</span>
+            </div>
+            <div class="colm">
+                <span class="seg">00</span>
+                <span>seconds</span>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
