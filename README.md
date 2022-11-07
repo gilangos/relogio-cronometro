@@ -1,4 +1,4 @@
-# relogio-cronometro
+# relógio-cronômetro
 
 
 * projeto simples de um relógio com cronômetragem, utilizando html, css, javascript.
