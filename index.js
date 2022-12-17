@@ -39,7 +39,7 @@ function restart(){
 
 function stop(){
     ispaused = !ispaused
-    ispaused === true ? button.innerHTML = 'continuar' : button.innerHTML = 'stop';
+    ispaused === true ? button.innerHTML = 'continue' : button.innerHTML = 'stop';
 }
 
 // ## passando o toggle para o array de classes cc

@@ -1,5 +1,5 @@
 <h1 align="center">
-  Calculadora
+  Relogio com cronômetragem
 </h1>
 
 <p align="center">
@@ -9,4 +9,4 @@
 
 ## 💻 Descrição
 
-Calculadora simples, feita com html, css e javascript. Botando em pratica algumas validações basicas com funções in js, como repetição de operador e etc.
+relógio simples com um botão que alterna entre a interface padrão e o cronômetro, feito com html, css e javascript.
